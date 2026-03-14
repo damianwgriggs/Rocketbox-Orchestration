@@ -26,20 +26,18 @@ cd rocketbox-orchestrator
 pip install -r requirements.txt
 ```
 
-## 🎮 Generating the Video Demo
+## 🎮 Running the Simulation
 
-To effectively use this application for stakeholder presentations (Damian):
+To launch the dashboard and run the local edge-compute simulation:
 
 1. Start the Streamlit server:
 ```bash
 streamlit run app.py
 ```
 2. Open your browser to `http://localhost:8501`.
-3. Start your screen-recording software.
-4. Click the primary **🚀 Run 1GB File Transfer Simulation** button.
-5. Capture the dynamic node telemetry, showing the metrics bouncing off the top-end bandwidth and hardware limits.
-6. Once completed, stop the recording and click the **📥 Download Telemetry Report (CSV)** button.
-7. Package the video file alongside the generated `.csv` metrics sheet.
+3. Click the primary **🚀 Run 1GB File Transfer Simulation** button.
+4. Watch the dynamic node telemetry map visualize the 10Gbps data flow bouncing off the strict bandwidth and hardware limits.
+5. Once completed, you can click the **📥 Download Telemetry Report (CSV)** button to save the tick-by-tick performance logs.
 
 ## 🛠️ Stack
 
